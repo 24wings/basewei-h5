@@ -1,0 +1,4 @@
+<div class="blocks">
+  <app-block [block]="block" *ngFor="let block of blocks;let i = index;" (click)="logBlock(block)" class="percent percent-{{i+1}}-{{blocks.length}} "></app-block>
+
+</div>
