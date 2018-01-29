@@ -1,14 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 .black {
-    background: #3d3758;
+  background: #3d3758;
 }
-
 
 // @keyframes one
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 // app-nine-house{
 //         -webkit-transform: rotate(30deg);
@@ -21,37 +20,39 @@
 //         z-index: 99999;
 // }
 
-.stage2{
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    height: 36vh;
-    background: lightsteelblue;
-    width: 63vw;
-    margin-left: 16vw;
-    margin-top: 20vw;
+.stage2 {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  height: 36vh;
+  background: lightsteelblue;
+  width: 63vw;
+  margin-left: 16vw;
+  margin-top: 33vw;
 }
 
-.border{
-    left:-20px;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: -1;
-    
+.border {
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
 }
-.border-bisque{
-    background: bisque;
+.border-bisque {
+  background: bisque;
 }
-.border-green{
-    background: lightgreen;
+.border-green {
+  background: lightgreen;
 }
-.stage{
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    height: 40vh;
-    background: lightsteelblue;
-    width: 64vw;
-    margin-left: 21vw;
-    margin-top: 20vw;
-    z-index: 99999;
+.stage {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  height: 40vh;
+  background: lightsteelblue;
+  width: 64vw;
+  margin-left: 21vw;
+  margin-top: 33vw;
+  z-index: 99999;
+}
+.text-center {
+  text-align: center;
 }

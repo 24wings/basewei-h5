@@ -1,2 +1,2 @@
-<app-house *ngFor="let house of houses" [blocks]="house.blocks" [class.blocks1]="house.blocks.length==1" [class.blocks2]="house.blocks.length==2"
-  [class.blocks3]="house.blocks.length==3"></app-house>
+<app-house *ngFor="let house of houses" [house]="house" [title]="house.title" [class.blocks1]="house.blocks.length==1" [class.blocks2]="house.blocks.length==2"
+  [class.blocks3]="house.blocks.length==3" [class.using]="house.using" [class.active]="house.active"></app-house>

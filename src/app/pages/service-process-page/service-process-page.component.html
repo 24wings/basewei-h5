@@ -1,0 +1,23 @@
+<app-timer [maxTime]="maxTime" #timer></app-timer>
+<div class="stage">
+  <div class="border border-bisque">
+    <div class="border border-green">
+      <app-nine-house [houses]="houses"></app-nine-house>
+
+    </div>
+  </div>
+</div>
+<div class="btn-group" style="margin-top:10vh;">
+  <button [class.activeService]="step==0" (click)="doAction(0)" [disabled]="step!=0">起钟</button>
+  <button [class.activeService]="step==1" (click)="doAction(1)" [disabled]="step!=1">换人</button>
+  <button [class.activeService]="step==2" (click)="doAction(2)" [disabled]="step!=2">换项加项</button>
+  <button [class.activeService]="step==3" (click)="doAction(3)" [disabled]="step!=3">呼叫</button>
+  <button [class.activeService]="step==4" (click)="doAction(4)" [disabled]="step!=4">下钟</button>
+
+</div>
+
+
+<app-message-queue [messages]="messages" style="position:absolute;bottom:20px;left:0"></app-message-queue>
+
+
+<button routerLink="/balance">结算</button>

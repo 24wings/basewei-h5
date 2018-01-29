@@ -1,13 +1,29 @@
+:host img {
+  max-width: 35px;
+  position: absolute;
+}
+:host.percent-1-2 img {
+  left: 0;
+  top: 0;
+}
+:host.percent-2-2 img {
+  right: 0;
+  bottom: 0;
+}
 
-:host img{
-    max-width: 35px;
-    position:absolute; 
+:host.percent-1-4 img {
+  left: 0;
+  top: 0;
 }
-:host.percent-1-2 img{
-left: 0;
-top:0;
+:host.percent-2-4 img {
+  right: 0;
+  top: 0;
 }
-:host.percent-2-2 img{
-    right:0;
-    bottom: 0;
+:host.percent-3-4 img {
+  left: 0;
+  bottom: 0;
+}
+:host.percent-4-4 img {
+  right: 0;
+  bottom: 0;
 }

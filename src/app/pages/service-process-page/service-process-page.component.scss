@@ -1,0 +1,11 @@
+.btn-group {
+  display: flex;
+}
+.btn-group button {
+  flex: 1;
+  border: none;
+}
+
+.btn-group button.activeService {
+  background: burlywood;
+}
