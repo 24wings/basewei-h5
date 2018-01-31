@@ -21,8 +21,8 @@
 // }
 
 .stage2 {
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
+  // -webkit-transform: rotate(30deg);
+  // transform: rotate(30deg);
   height: 36vh;
   background: lightsteelblue;
   width: 63vw;
@@ -39,13 +39,14 @@
 }
 .border-bisque {
   background: bisque;
+  z-index: 99;
 }
 .border-green {
   background: lightgreen;
 }
 .stage {
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
+  // -webkit-transform: rotate(30deg);
+  // transform: rotate(30deg);
   height: 40vh;
   background: lightsteelblue;
   width: 64vw;
